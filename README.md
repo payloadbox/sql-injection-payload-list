@@ -1,2 +1,1 @@
-# sql-injection-payload-list
-SQL Injection Payload List
+# SQL Injection Payload List
