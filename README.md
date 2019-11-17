@@ -10,6 +10,10 @@ SQL injection is a web security vulnerability that allows an attacker to interfe
 
 In some situations, an attacker can escalate an SQL injection attack to compromise the underlying server or other back-end infrastructure, or perform a denial-of-service attack.
 
+<p align="center"> 
+<img src="/Image/sql-injection.svg">
+</p>
+
 |    SQL Injection Type        | Description                     
 |----------------|-------------------------------|
 |In-band SQLi (Classic SQLi)|In-band SQL Injection is the most common and easy-to-exploit of SQL Injection attacks. In-band SQL Injection occurs when an attacker is able to use the same communication channel to both launch the attack and gather results. The two most common types of in-band SQL Injection are Error-based SQLi and Union-based SQLi. |    
