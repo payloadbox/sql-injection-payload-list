@@ -882,3 +882,41 @@ admin") or "1"="1"#
 admin") or "1"="1"/*
 1234 " AND 1=0 UNION ALL SELECT "admin", "81dc9bdb52d04dc20036dbd8313ed055
 ```
+
+References :
+
+* SQL Injection ( OWASP )
+
+👉 https://www.owasp.org/index.php/SQL_Injection
+
+* Blind SQL Injection
+
+👉 https://www.owasp.org/index.php/Blind_SQL_Injection
+
+* Testing for SQL Injection (OTG-INPVAL-005)
+
+👉 https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)
+
+* SQL Injection Bypassing WAF
+
+👉 https://www.owasp.org/index.php/SQL_Injection_Bypassing_WAF
+
+* Reviewing Code for SQL Injection
+
+👉 https://www.owasp.org/index.php/Reviewing_Code_for_SQL_Injection
+
+* PL/SQL:SQL Injection
+
+👉 https://www.owasp.org/index.php/PL/SQL:SQL_Injection
+
+* Testing for NoSQL injection
+
+👉 https://www.owasp.org/index.php/Testing_for_NoSQL_injection
+
+* SQL Injection Injection Prevention Cheat Sheet 
+
+👉 https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
+
+* SQL Injection Query Parameterization Cheat Sheet 
+
+👉 https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
